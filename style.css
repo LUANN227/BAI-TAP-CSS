@@ -1,4 +1,4 @@
-/* Màu nền chung của trang (màu kem nhạt) */
+/* Màu nền chung của trang (màu vàng) */
 body {
     background-color: #efec6a;
     font-family: "Times New Roman", Times, serif;
@@ -20,12 +20,12 @@ th, td {
 
 /* Định dạng riêng cho hàng tiêu đề (Header) */
 thead tr {
-    background-color: #91f95a; /* Màu cam đậm */
+    background-color: #91f95a; /* Màu xanh lá */
     color: black;
     font-weight: bold;
 }
 
-/* Định dạng màu nền xen kẽ cho các hàng (Zebra striping) */
+/* Định dạng màu nền xen kẽ cho các hàng */
 /* Hàng lẻ */
 tbody tr:nth-child(odd) {
     background-color: #ffe4e1; /* Màu hồng phấn nhạt */
