@@ -1,0 +1,48 @@
+/* Màu nền chung của trang (màu kem nhạt) */
+body {
+    background-color: #efec6a;
+    font-family: "Times New Roman", Times, serif;
+}
+
+/* Định dạng chung cho bảng */
+table {
+    border-collapse: collapse; /* Gộp đường viền ô */
+    background-color: #fff;
+}
+
+/* Định dạng cho các ô (th, td) */
+th, td {
+    border: 1px solid purple; /* Viền màu tím theo mẫu */
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Định dạng riêng cho hàng tiêu đề (Header) */
+thead tr {
+    background-color: #91f95a; /* Màu cam đậm */
+    color: black;
+    font-weight: bold;
+}
+
+/* Định dạng màu nền xen kẽ cho các hàng (Zebra striping) */
+/* Hàng lẻ */
+tbody tr:nth-child(odd) {
+    background-color: #ffe4e1; /* Màu hồng phấn nhạt */
+}
+/* Hàng chẵn */
+tbody tr:nth-child(even) {
+    background-color: #fffaf0; /* Màu trắng kem */
+}
+
+/* Định dạng tên món ăn (Màu xanh dương đậm) */
+.dish-name {
+    color: #00008b;
+    font-weight: bold;
+}
+
+/* Tăng kích thước ô checkbox lên một chút cho dễ nhìn */
+input[type="checkbox"] {
+    transform: scale(1.5);
+    cursor: pointer;
+}
